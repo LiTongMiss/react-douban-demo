@@ -1,0 +1,20 @@
+#itemHandlerButtons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.han_btn{
+    font-size:22px;
+}
+.han_btn>sup{
+    font-size:14px;
+}
+.itemPics{
+    display: flex;
+    justify-content: space-between;
+}
+.picItem{
+    width: 30%;
+    height: 30%;
+}

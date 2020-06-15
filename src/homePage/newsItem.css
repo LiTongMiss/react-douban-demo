@@ -1,0 +1,25 @@
+#newsItem{
+    padding: 10px;
+}
+.item_header{
+    display: flex;
+    justify-content: space-between;
+}
+.itemPics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.itemPics>.picItem{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+.topic_tip{
+    padding: 3px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgba(151,216,161, 0.5);
+    color:rgb(0,181,29);
+    font-size:12px;
+}
