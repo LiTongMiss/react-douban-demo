@@ -1,0 +1,17 @@
+.cell{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    .content{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .prefix{
+        // width: 40px;
+        margin-right: 10px;
+    }
+}

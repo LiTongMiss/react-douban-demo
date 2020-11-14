@@ -59,3 +59,26 @@
 .color_white{
   color: #fff;
 }
+
+a{
+  text-decoration: none;
+  color:#999;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.mtb10{
+  margin: 10px 0;
+}
+.container{
+  background-color: #eee;
+  min-height: 100vh;
+}
+.flex-sb{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-s{
+  display: flex;
+  justify-content: flex-start;
+}

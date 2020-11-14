@@ -1,11 +1,13 @@
 import React from 'react';
+import {BrowserRouter, Route,Link, Switch } from 'react-router-dom'
 // import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 // import Game from './Game'
-import Navbar from './homePage/Navbar'
-import Footerbar from './homePage/Footerbar'
-import TabBar from './homePage/TabBar'
-import NewsItem from './homePage/NewsItem'
+import Navbar from './page/homePage/Navbar'
+import Footerbar from './page/homePage/Footerbar'
+
+import MyCenter from './page/myCenter/MyCenter'
+import Home from './page/homePage/Home'
 
 function App() {
 
@@ -18,13 +20,21 @@ function App() {
   //   }]
   // }
   return (
-    <div>
-      <Navbar></Navbar>
-      <TabBar></TabBar>
+    <BrowserRouter>
+     <div>
+   
+      {/* <Navbar></Navbar> */}
+      {/* <TabBar></TabBar> */}
       {/* {this.doubanList.map(item => <div></div>)} */}
-      <NewsItem></NewsItem>
+      {/* <NewsItem></NewsItem> */}
       <Footerbar></Footerbar>
     </div>
+      <Switch>
+        <Route exact path='/' component={Home}></Route>
+        <Route path='/myCenter' component={MyCenter}></Route>
+      </Switch>
+    </BrowserRouter>
+   
     
     // <Game></Game>  
     // <div className="App">

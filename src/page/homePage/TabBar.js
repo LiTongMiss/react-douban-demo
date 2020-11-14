@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './header.css'
+import './header.scss'
 export default class TabBar extends Component {
     render() {
         return (

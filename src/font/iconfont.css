@@ -15,122 +15,152 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 加号 */
 .icon-jia:before {
   content: "\e618";
 }
 
+/* 筛选 */
 .icon-shaixuan:before {
   content: "\e60f";
 }
 
+/* 日记 */
 .icon-xilieriji:before {
   content: "\e64a";
 }
 
+/* 沙发 */
 .icon-shafa:before {
   content: "\e601";
 }
 
+/* 相机 */
 .icon-xiangji:before {
   content: "\e666";
 }
 
+/* 相册 */
 .icon-xiangce:before {
   content: "\e61c";
 }
 
+/* 书城 */
 .icon-shucheng:before {
   content: "\e669";
 }
 
+/* 列表查找 */
 .icon-liebiao:before {
   content: "\e602";
 }
 
+/* 钱包 */
 .icon-icon-cloud-wallet:before {
   content: "\e60e";
 }
 
+/* 榜单 */
 .icon-bangdan:before {
   content: "\e636";
 }
 
+/* 收藏 */
 .icon-shoucang:before {
   content: "\ea5a";
 }
 
+/* 影片 */
 .icon-yingpian:before {
   content: "\e6dc";
 }
 
+/* 播放 */
 .icon-play-round:before {
   content: "\e603";
 }
 
+/* 写日志 */
 .icon-xierizhi:before {
   content: "\e60d";
 }
 
+/* 想看 */
 .icon-xiangkan:before {
   content: "\e8bc";
 }
 
+/* 时间 计时表盘 */
 .icon-_shijian-riqi:before {
   content: "\e69c";
 }
 
+/* 设置 */
 .icon-shezhi:before {
   content: "\e604";
 }
 
+/* 搜索 */
 .icon-sousuo:before {
   content: "\e60c";
 }
 
+/* 扫码 */
 .icon-saoma:before {
   content: "\e62f";
 }
 
+/* 攒 */
 .icon-z059:before {
   content: "\e6db";
 }
 
+/* 评论 */
 .icon-pinglun:before {
   content: "\e69d";
 }
 
+/* 书 */
 .icon-shu:before {
   content: "\e629";
 }
 
+/* 小组 */
 .icon-yuanxing:before {
   content: "\e61f";
 }
 
+/* 扫码 */
 .icon-saoma1:before {
   content: "\e606";
 }
 
+/* 信 */
 .icon-fen--:before {
   content: "\e630";
 }
 
+/* 用户 */
 .icon-wode:before {
   content: "\e653";
 }
 
+/* 市集 */
 .icon-linlishiji:before {
   content: "\e639";
 }
 
+/* 首页 */
 .icon-shouye:before {
   content: "\e613";
 }
 
+/* 好 */
 .icon-hao:before {
   content: "\e6c3";
 }
 
+/* 转发 */
 .icon-zhuanfa:before {
   content: "\e600";
 }

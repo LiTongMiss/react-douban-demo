@@ -28,6 +28,7 @@ input{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+
 }
 .news{
     position: absolute;
@@ -37,12 +38,14 @@ input{
 #footer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 44px;
     position: fixed;
     bottom: 0;
     left: 0;
     background-color: #fff;
+    font-size: 12px;
 }
 #tabBar{
     width: 100%;
@@ -55,10 +58,13 @@ input{
 .tabs{
     margin: 0 10px;
 }
-.footerItem{
+.footerItem>a{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.active >a{
+    color: #46ce64 ;
 }
 .icon{
     font-size:18px;

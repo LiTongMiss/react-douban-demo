@@ -1,0 +1,84 @@
+.myCenter{
+    font-size: 12px;
+    .myInfo{
+        background-color: #ff9933;
+        color:#fff;
+        .setting{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px 0;
+        }
+        .userInfo{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            .info{
+                display: flex;
+                justify-content: flex-start;
+                .userImg{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    border: 2px solid #fff;
+                    margin-right: 5px;
+                }
+                .userDetail{
+                    .userName{
+                        font-size: 14px;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    .adv{
+        width: 100%;
+    }
+    .userTabs{
+        background-color: #fff;
+        .recordList{
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+            .recordCard{
+                width: 100px;
+                height: 110px;
+                border-radius: 10px;
+                border:1px solid #ccc;
+                margin-right: 10px;
+                padding: 10px 10px 0;
+                .recordTip{
+                
+                }
+                .recordImages{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    .record_img{
+                        border-radius: 5px;
+                        &:nth-child(1){
+                            width: 40px;
+                            height: 50px;
+                            z-index:10;
+                        }
+                        &:nth-child(2){
+                            width: 30px;
+                            height: 40px;
+                            margin-left: -5px;
+                            z-index:5;
+                        }
+                        &:nth-child(3){
+                            width: 25px;
+                            height: 35px;
+                            margin-left: -5px;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+   
+}
+
