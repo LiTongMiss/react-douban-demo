@@ -17,19 +17,19 @@ export default class Footerbar extends Component {
                     // icon: '&#xe629;',
                     icon:<span>&#xe629;</span>,
                     name: '书影音',
-                    toPath:'/myCenter'
+                    toPath:'/audioBook'
                 },
                 {
                     // icon: '&#xe61f;',
                     icon:<span>&#xe61f;</span>,
                     name: '小组',
-                    toPath:'/myCenter'
+                    toPath:'/group'
                 },
                 {
                     // icon: '&#xe639;',
                     icon:<span>&#xe639;</span>,
                     name: '市集',
-                    toPath:'/myCenter'
+                    toPath:'/market'
                 },
                 {
                     icon: <span>&#xe653;</span>,

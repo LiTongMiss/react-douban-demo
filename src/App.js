@@ -8,6 +8,9 @@ import Footerbar from './page/homePage/Footerbar'
 
 import MyCenter from './page/myCenter/MyCenter'
 import Home from './page/homePage/Home'
+import AudioBook from './page/audioBook/audioBook'
+import Group from './page/group/group'
+import Market from './page/market/market'
 
 function App() {
 
@@ -32,6 +35,9 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home}></Route>
         <Route path='/myCenter' component={MyCenter}></Route>
+        <Route path='/audioBook' component={AudioBook}></Route>
+        <Route path='/group' component={Group}></Route>
+        <Route path='/market' component={Market}></Route>
       </Switch>
     </BrowserRouter>
    
