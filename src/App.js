@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route,Link, Switch } from 'react-router-dom'
 // import logo from './logo.svg';
 import './App.scss';
-// import Game from './Game'
+import Game from './ReactExmaple/Game'
 import Navbar from './page/homePage/Navbar'
 import Footerbar from './page/homePage/Footerbar'
 
@@ -33,6 +33,7 @@ function App() {
       <Footerbar></Footerbar>
     </div>
       <Switch>
+      <Game></Game> 
         <Route exact path='/' component={Home}></Route>
         <Route path='/myCenter' component={MyCenter}></Route>
         <Route path='/audioBook' component={AudioBook}></Route>
@@ -42,7 +43,7 @@ function App() {
     </BrowserRouter>
    
     
-    // <Game></Game>  
+     
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
